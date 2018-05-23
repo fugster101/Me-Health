@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0174A963474F3618AAA61066 /* Pods_Me_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E807FD4CA1D29ABAE2FA136 /* Pods_Me_Health.framework */; };
+		C3048B0F2062DF3C000455B1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3048B092062DF3C000455B1 /* Exercise.swift */; };
+		C3048B112062DF3C000455B1 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3048B0B2062DF3C000455B1 /* Food.swift */; };
+		C3048B132062DF3C000455B1 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3048B0D2062DF3C000455B1 /* Calorie.swift */; };
+		C30A12322042CE23003121C5 /* AppTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A12312042CE23003121C5 /* AppTabController.swift */; };
+		C30A123B204306F0003121C5 /* ExerciseSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A123A204306F0003121C5 /* ExerciseSelectionView.swift */; };
+		C30A123D204308C2003121C5 /* CustomExerciseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A123C204308C2003121C5 /* CustomExerciseCellView.swift */; };
+		C30A1240204338A4003121C5 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A123F204338A4003121C5 /* ExerciseView.swift */; };
+		C30A124220438DD8003121C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A124120438DD8003121C5 /* Extensions.swift */; };
+		C340182A204A08C30025911A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3401828204A08C30025911A /* Model.xcdatamodeld */; };
+		C39DDA7A205563C7006F9CD9 /* FinalOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39DDA79205563C7006F9CD9 /* FinalOnboardView.swift */; };
+		C39DDA7C20558052006F9CD9 /* FirstOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39DDA7B20558052006F9CD9 /* FirstOnboardView.swift */; };
+		C39DDA7E205580B6006F9CD9 /* SecondOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39DDA7D205580B6006F9CD9 /* SecondOnboardView.swift */; };
+		C39DDA80205580EB006F9CD9 /* ThirdOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39DDA7F205580EB006F9CD9 /* ThirdOnboardView.swift */; };
+		C3A90FE1204A0B7F0057EC94 /* MoreCustomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A90FE0204A0B7F0057EC94 /* MoreCustomCellView.swift */; };
+		C3C5EBBD20459F1600BB842E /* DiaryViewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5EBBC20459F1600BB842E /* DiaryViewCustomCell.swift */; };
+		C3CBE6802046DC5600DB9706 /* ExerciseResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBE67F2046DC5600DB9706 /* ExerciseResultView.swift */; };
+		C3CBE6822048674E00DB9706 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CBE6812048674E00DB9706 /* CoreMotion.framework */; };
+		C3CBE6842048676200DB9706 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CBE6832048676200DB9706 /* CoreLocation.framework */; };
+		C3CBE6862048679800DB9706 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CBE6852048679800DB9706 /* MapKit.framework */; };
 		C3CF9526204209130006CEAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF9525204209130006CEAC /* AppDelegate.swift */; };
-		C3CF9528204209130006CEAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF9527204209130006CEAC /* ViewController.swift */; };
 		C3CF952B204209130006CEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CF9529204209130006CEAC /* Main.storyboard */; };
 		C3CF952D204209130006CEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CF952C204209130006CEAC /* Assets.xcassets */; };
 		C3CF9530204209130006CEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CF952E204209130006CEAC /* LaunchScreen.storyboard */; };
+		C3E5CD812067D79C00F25419 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E5CD802067D79C00F25419 /* CoreData.framework */; };
+		C3F972B8206428C100BDB1B4 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F972B7206428C100BDB1B4 /* UIButtonX.swift */; };
+		C3F995192044374C0018B363 /* MoreSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F995182044374C0018B363 /* MoreSelectionView.swift */; };
+		C3F9951D204440DD0018B363 /* MoreWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9951C204440DD0018B363 /* MoreWebView.swift */; };
+		C3F995232044BBEC0018B363 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F995222044BBEC0018B363 /* DiaryView.swift */; };
+		C3FDD8982042260D00840F38 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDD8972042260D00840F38 /* HeartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E807FD4CA1D29ABAE2FA136 /* Pods_Me_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Me_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671266893E904556AB13FFB1 /* Pods-Me-Health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Me-Health.release.xcconfig"; path = "Pods/Target Support Files/Pods-Me-Health/Pods-Me-Health.release.xcconfig"; sourceTree = "<group>"; };
+		9A2D46E4907D13D27ACFDB83 /* Pods-Me-Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Me-Health.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Me-Health/Pods-Me-Health.debug.xcconfig"; sourceTree = "<group>"; };
+		C3048B092062DF3C000455B1 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		C3048B0B2062DF3C000455B1 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		C3048B0D2062DF3C000455B1 /* Calorie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calorie.swift; sourceTree = "<group>"; };
+		C30A12312042CE23003121C5 /* AppTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabController.swift; sourceTree = "<group>"; };
+		C30A123A204306F0003121C5 /* ExerciseSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSelectionView.swift; sourceTree = "<group>"; };
+		C30A123C204308C2003121C5 /* CustomExerciseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExerciseCellView.swift; sourceTree = "<group>"; };
+		C30A123F204338A4003121C5 /* ExerciseView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; tabWidth = 1; };
+		C30A124120438DD8003121C5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C3401829204A08C30025911A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C39DDA79205563C7006F9CD9 /* FinalOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FinalOnboardView.swift; path = "Me-Health/Controller/FinalOnboardView.swift"; sourceTree = SOURCE_ROOT; };
+		C39DDA7B20558052006F9CD9 /* FirstOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardView.swift; sourceTree = "<group>"; };
+		C39DDA7D205580B6006F9CD9 /* SecondOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondOnboardView.swift; path = "/Users/furqanagwan/Desktop/Me-Health/Me-Health/Controller/SecondOnboardView.swift"; sourceTree = "<absolute>"; };
+		C39DDA7F205580EB006F9CD9 /* ThirdOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdOnboardView.swift; sourceTree = "<group>"; };
+		C3A90FE0204A0B7F0057EC94 /* MoreCustomCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCustomCellView.swift; sourceTree = "<group>"; };
+		C3C5EBBC20459F1600BB842E /* DiaryViewCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewCustomCell.swift; sourceTree = "<group>"; };
+		C3CBE67F2046DC5600DB9706 /* ExerciseResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseResultView.swift; sourceTree = "<group>"; };
+		C3CBE6812048674E00DB9706 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C3CBE6832048676200DB9706 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C3CBE6852048679800DB9706 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C3CF9522204209130006CEAC /* Me-Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Me-Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CF9525204209130006CEAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3CF9527204209130006CEAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3CF952A204209130006CEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3CF952C204209130006CEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3CF952F204209130006CEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C3CF9531204209130006CEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E5CD802067D79C00F25419 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3F972B7206428C100BDB1B4 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		C3F995182044374C0018B363 /* MoreSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSelectionView.swift; sourceTree = "<group>"; };
+		C3F9951C204440DD0018B363 /* MoreWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreWebView.swift; sourceTree = "<group>"; };
+		C3F995222044BBEC0018B363 /* DiaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		C3FA39CC205C294F00E9B6F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		C3FDD8972042260D00840F38 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E5CD812067D79C00F25419 /* CoreData.framework in Frameworks */,
+				C3CBE6862048679800DB9706 /* MapKit.framework in Frameworks */,
+				C3CBE6842048676200DB9706 /* CoreLocation.framework in Frameworks */,
+				C3CBE6822048674E00DB9706 /* CoreMotion.framework in Frameworks */,
+				0174A963474F3618AAA61066 /* Pods_Me_Health.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A01D2B046D971827940EC2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D46E4907D13D27ACFDB83 /* Pods-Me-Health.debug.xcconfig */,
+				671266893E904556AB13FFB1 /* Pods-Me-Health.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		994BF00ED6B4BF030A046BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E5CD802067D79C00F25419 /* CoreData.framework */,
+				C3CBE6852048679800DB9706 /* MapKit.framework */,
+				C3CBE6832048676200DB9706 /* CoreLocation.framework */,
+				C3CBE6812048674E00DB9706 /* CoreMotion.framework */,
+				3E807FD4CA1D29ABAE2FA136 /* Pods_Me_Health.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C378A883204D6B4B00B37E90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3CF952C204209130006CEAC /* Assets.xcassets */,
+				C30A124120438DD8003121C5 /* Extensions.swift */,
+				C30A12312042CE23003121C5 /* AppTabController.swift */,
+				C3CF9525204209130006CEAC /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C3CF9519204209130006CEAC = {
 			isa = PBXGroup;
 			children = (
 				C3CF9524204209130006CEAC /* Me-Health */,
 				C3CF9523204209130006CEAC /* Products */,
+				994BF00ED6B4BF030A046BA5 /* Frameworks */,
+				1A01D2B046D971827940EC2D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +145,71 @@
 		C3CF9524204209130006CEAC /* Me-Health */ = {
 			isa = PBXGroup;
 			children = (
-				C3CF9525204209130006CEAC /* AppDelegate.swift */,
-				C3CF9527204209130006CEAC /* ViewController.swift */,
-				C3CF9529204209130006CEAC /* Main.storyboard */,
-				C3CF952C204209130006CEAC /* Assets.xcassets */,
-				C3CF952E204209130006CEAC /* LaunchScreen.storyboard */,
-				C3CF9531204209130006CEAC /* Info.plist */,
+				C3F972B62064287300BDB1B4 /* DesignableX */,
+				C3FA39CB205C272700E9B6F2 /* Controller */,
+				C3FA39CA205C272100E9B6F2 /* View */,
+				C3FA39C9205C271B00E9B6F2 /* Model */,
+				C378A883204D6B4B00B37E90 /* Supporting Files */,
+				C3FA39CD205C294F00E9B6F2 /* Info.plist */,
 			);
 			path = "Me-Health";
+			sourceTree = "<group>";
+		};
+		C3F9729C206418C800BDB1B4 /* Table Cell Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3C5EBBC20459F1600BB842E /* DiaryViewCustomCell.swift */,
+				C3A90FE0204A0B7F0057EC94 /* MoreCustomCellView.swift */,
+				C30A123C204308C2003121C5 /* CustomExerciseCellView.swift */,
+			);
+			path = "Table Cell Controllers";
+			sourceTree = "<group>";
+		};
+		C3F972B62064287300BDB1B4 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				C3F972B7206428C100BDB1B4 /* UIButtonX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		C3FA39C9205C271B00E9B6F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3048B092062DF3C000455B1 /* Exercise.swift */,
+				C3048B0B2062DF3C000455B1 /* Food.swift */,
+				C3048B0D2062DF3C000455B1 /* Calorie.swift */,
+				C3401828204A08C30025911A /* Model.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3FA39CA205C272100E9B6F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3CF952E204209130006CEAC /* LaunchScreen.storyboard */,
+				C3CF9529204209130006CEAC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3FA39CB205C272700E9B6F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9729C206418C800BDB1B4 /* Table Cell Controllers */,
+				C3F995222044BBEC0018B363 /* DiaryView.swift */,
+				C3F9951C204440DD0018B363 /* MoreWebView.swift */,
+				C3F995182044374C0018B363 /* MoreSelectionView.swift */,
+				C30A123F204338A4003121C5 /* ExerciseView.swift */,
+				C30A123A204306F0003121C5 /* ExerciseSelectionView.swift */,
+				C3CBE67F2046DC5600DB9706 /* ExerciseResultView.swift */,
+				C3FDD8972042260D00840F38 /* HeartView.swift */,
+				C39DDA7B20558052006F9CD9 /* FirstOnboardView.swift */,
+				C39DDA7D205580B6006F9CD9 /* SecondOnboardView.swift */,
+				C39DDA7F205580EB006F9CD9 /* ThirdOnboardView.swift */,
+				C39DDA79205563C7006F9CD9 /* FinalOnboardView.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3CF9534204209130006CEAC /* Build configuration list for PBXNativeTarget "Me-Health" */;
 			buildPhases = (
+				EE4A7C84D37C9666CEE300A5 /* [CP] Check Pods Manifest.lock */,
 				C3CF951E204209130006CEAC /* Sources */,
 				C3CF951F204209130006CEAC /* Frameworks */,
 				C3CF9520204209130006CEAC /* Resources */,
+				50D8434A482A355C514E95D4 /* [CP] Embed Pods Frameworks */,
+				761BF5C4A4FA3F4AE4FDC78A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,12 +242,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Furqan Agwan";
 				TargetAttributes = {
 					C3CF9521204209130006CEAC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,13 +290,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50D8434A482A355C514E95D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Me-Health/Pods-Me-Health-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Me-Health/Pods-Me-Health-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		761BF5C4A4FA3F4AE4FDC78A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Me-Health/Pods-Me-Health-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4A7C84D37C9666CEE300A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Me-Health-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3CF951E204209130006CEAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CF9528204209130006CEAC /* ViewController.swift in Sources */,
+				C340182A204A08C30025911A /* Model.xcdatamodeld in Sources */,
+				C3F995232044BBEC0018B363 /* DiaryView.swift in Sources */,
+				C3F972B8206428C100BDB1B4 /* UIButtonX.swift in Sources */,
+				C30A123D204308C2003121C5 /* CustomExerciseCellView.swift in Sources */,
+				C3C5EBBD20459F1600BB842E /* DiaryViewCustomCell.swift in Sources */,
+				C3F995192044374C0018B363 /* MoreSelectionView.swift in Sources */,
+				C30A12322042CE23003121C5 /* AppTabController.swift in Sources */,
+				C39DDA80205580EB006F9CD9 /* ThirdOnboardView.swift in Sources */,
+				C3F9951D204440DD0018B363 /* MoreWebView.swift in Sources */,
+				C30A124220438DD8003121C5 /* Extensions.swift in Sources */,
+				C3048B112062DF3C000455B1 /* Food.swift in Sources */,
+				C39DDA7E205580B6006F9CD9 /* SecondOnboardView.swift in Sources */,
+				C3CBE6802046DC5600DB9706 /* ExerciseResultView.swift in Sources */,
+				C3048B0F2062DF3C000455B1 /* Exercise.swift in Sources */,
+				C39DDA7C20558052006F9CD9 /* FirstOnboardView.swift in Sources */,
+				C3FDD8982042260D00840F38 /* HeartView.swift in Sources */,
+				C3A90FE1204A0B7F0057EC94 /* MoreCustomCellView.swift in Sources */,
 				C3CF9526204209130006CEAC /* AppDelegate.swift in Sources */,
+				C30A1240204338A4003121C5 /* ExerciseView.swift in Sources */,
+				C30A123B204306F0003121C5 /* ExerciseSelectionView.swift in Sources */,
+				C39DDA7A205563C7006F9CD9 /* FinalOnboardView.swift in Sources */,
+				C3048B132062DF3C000455B1 /* Calorie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +399,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		C3FA39CD205C294F00E9B6F2 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FA39CC205C294F00E9B6F2 /* Base */,
+			);
+			name = Info.plist;
+			path = "Me-Health";
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -177,6 +425,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +433,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +484,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +492,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,31 +524,35 @@
 		};
 		C3CF9535204209130006CEAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2D46E4907D13D27ACFDB83 /* Pods-Me-Health.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 468QJW47GZ;
 				INFOPLIST_FILE = "Me-Health/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "furqan-agwan.Me-Health";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C3CF9536204209130006CEAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671266893E904556AB13FFB1 /* Pods-Me-Health.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 468QJW47GZ;
 				INFOPLIST_FILE = "Me-Health/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "furqan-agwan.Me-Health";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -322,6 +578,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3401828204A08C30025911A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3401829204A08C30025911A /* Model.xcdatamodel */,
+			);
+			currentVersion = C3401829204A08C30025911A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C3CF951A204209130006CEAC /* Project object */;
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Calorie" representedClassName=".Calorie" syncable="YES">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalCalorie" attributeType="String" defaultValueString="0 kcal" syncable="YES"/>
+    </entity>
+    <entity name="Exercise" representedClassName=".Exercise" syncable="YES">
+        <attribute name="exerciseDate" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="exerciseName" attributeType="String" syncable="YES"/>
+        <attribute name="exerciseType" attributeType="String" syncable="YES"/>
+        <attribute name="userDistance" attributeType="String" syncable="YES"/>
+        <attribute name="userPace" attributeType="String" syncable="YES"/>
+        <attribute name="userSteps" attributeType="String" syncable="YES"/>
+        <attribute name="userTime" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName=".Food" syncable="YES">
+        <attribute name="calorieAmount" attributeType="String" syncable="YES"/>
+        <attribute name="foodName" attributeType="String" syncable="YES"/>
+        <attribute name="servingAmount" attributeType="String" syncable="YES"/>
+        <attribute name="userFoodDate" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Calorie" positionX="-74" positionY="-171" width="128" height="75"/>
+        <element name="Exercise" positionX="97" positionY="-288" width="128" height="150"/>
+        <element name="Food" positionX="-72" positionY="-288" width="128" height="105"/>
+    </elements>
+</model>
